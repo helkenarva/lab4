@@ -22,12 +22,3 @@ void qwrt(double a, double b, double c)
 		printf("\nRoots: %lf %lf\n", x1, x2);
 	}
 }
-
-int main()
-{
-	double a, b, c;
-	printf("Enter a, b, c: \n");
-	scanf("%lf%lf%lf", &a, &b, &c);
-	qwrt(a, b, c);
-	return 0;
-}
